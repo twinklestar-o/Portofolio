@@ -1,10 +1,11 @@
-import { defineConfig } from 'astro/config';
-import 'dotenv/config'
+import { defineConfig } from "astro/config";
+import "dotenv/config";
 
-const base = process.env.BASE ?? '/twinklestar-o.github.io';
+//const base = process.env.BASE ?? '/twinklestar-o.github.io';
+const base = process.env.BASE ?? "/Portofolio";
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://twinklestar-o.github.io',
-    base: base,
+  site: "https://twinklestar-o.github.io",
+  base: base,
 });

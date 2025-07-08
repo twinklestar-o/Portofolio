@@ -19,11 +19,12 @@ const metaDescription = "Third-year Computer Science student with hands-on exper
 		<meta charset="UTF-8" />
 		<meta name="description" content={metaDescription} />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" href="/img/favicon.png" type="image/png">
+		<base href="/Portofolio/" />
+		<link rel="icon" href="public/img/favicon.png" type="image/png">
 
-		<link rel="stylesheet" href="/css/bootstrap.css">
-		<link rel="stylesheet" href="/css/font-awesome.min.css">
-		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="public/css/bootstrap.css">
+		<link rel="stylesheet" href="public/css/font-awesome.min.css">
+		<link rel="stylesheet" href="public/css/style.css">
 		
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
@@ -37,9 +38,9 @@ const metaDescription = "Third-year Computer Science student with hands-on exper
 	</body>
 </html>
 
-<script is:inline src="/js/jquery-3.2.1.min.js"></script>
-<script is:inline src="/js/popper.js"></script>
-<script is:inline src="/js/bootstrap.min.js"></script>
-<script is:inline src="/js/index.js?v=0.2"></script>
-<script is:inline src="/js/theme.js"></script>
+<script is:inline src="dist/js/jquery-3.2.1.min.js"></script>
+<script is:inline src="dist/js/popper.js"></script>
+<script is:inline src="dist/js/bootstrap.min.js"></script>
+<script is:inline src="dist/js/index.js?v=0.2"></script>
+<script is:inline src="dist/js/theme.js"></script>
 <script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
