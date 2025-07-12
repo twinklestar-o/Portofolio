@@ -21,11 +21,11 @@ const metaDescription = "Third-year Computer Science student with hands-on exper
 		<meta name="description" content={metaDescription} />
 		<meta name="viewport" content="width=device-width" />
 		<base href="/Portofolio/" />
-		<link rel="icon" href={`${base}img/favicon.png`} type="image/png">
+		<link rel="icon" href={`${import.meta.env.BASE_URL}img/favicon.png`} type="image/png">
 
-		<link rel="stylesheet" href={`${base}css/bootstrap.css`} />
-    <link rel="stylesheet" href={`${base}css/font-awesome.min.css`} />
-    <link rel="stylesheet" href={`${base}css/style.css`} />
+		<link rel="stylesheet" href={`${import.meta.env.BASE_URL}css/bootstrap.css`} />
+    <link rel="stylesheet" href={`${import.meta.env.BASE_URL}css/font-awesome.min.css`} />
+    <link rel="stylesheet" href={`${import.meta.env.BASE_URL}css/style.css`} />
 		
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
@@ -37,11 +37,11 @@ const metaDescription = "Third-year Computer Science student with hands-on exper
 
 		<Footer />
 	</body>
-	<script src={`${base}js/jquery-3.2.1.min.js`}></script>
-	<script src={`${base}js/popper.js`}></script>
-	<script src={`${base}js/bootstrap.min.js`}></script>
-	<script src={`${base}js/index.js?v=0.2`}></script>
-	<script src={`${base}js/theme.js`}></script>
+	<script src={`${import.meta.env.BASE_URL}js/jquery-3.2.1.min.js`}></script>
+	<script src={`${import.meta.env.BASE_URL}js/popper.js`}></script>
+	<script src={`${import.meta.env.BASE_URL}js/bootstrap.min.js`}></script>
+	<script src={`${import.meta.env.BASE_URL}js/index.js?v=0.2`}></script>
+	<script src={`${import.meta.env.BASE_URL}js/theme.js`}></script>
 	<script is:inline src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
 </html>
