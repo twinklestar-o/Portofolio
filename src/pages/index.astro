@@ -26,7 +26,7 @@ const experience = new Date().getFullYear() - startCareer;
 						</div>
 						<div class="col-lg-4">
 							<div class="profile_img">
-								<img class="img-fluid" src="../dist/img/banner/home-right.png" alt="">
+								<img class="img-fluid" src="dist/img/banner/home-right.png" alt="">
 							</div>
 						</div>
 					</div>
@@ -42,7 +42,7 @@ const experience = new Date().getFullYear() - startCareer;
 				<div class="row justify-content-start">
 					<div class="col-lg-5">
 						<div class="about_img">
-							<img src="../dist/img/about-us.png" alt="">
+							<img src="dist/img/about-us.png" alt="">
 						</div>
 					</div>
 
@@ -77,7 +77,7 @@ const experience = new Date().getFullYear() - startCareer;
 
 					<Project 
 						title="CAIS" 
-						img="../dist/img/portfolio/CAIS.jpg"
+						img={`${import.meta.env.BASE_URL}img/portfolio/CAIS.jpg`}
 						about="Developed a web-based platform to connect partner companies with alumni, featuring job listings, partner directories, and alumni career tracking. Led a small team as a Scrum Master and developer, ensuring a scalable and user-friendly system using Laravel and Agile (Scrum)."
 						stacks= {["PHP","HTML","CSS","JavaScript","Bootstrap","Postman", "REST API", "Coda", "GitHub", "Android Studio", "Kotlin" ,"MySQL"]}
 						website="https://ppkha.del.ac.id/"
@@ -95,7 +95,7 @@ const experience = new Date().getFullYear() - startCareer;
 
 					<Project 
 						title="SMAN1 BALIGE WEBSITE DEVELOPMENT" 
-						img="../dist/img/portfolio/sman1-balige.png"
+						img="public/img/portfolio/SuFiOne.jpg"
 						about="Led the development of a comprehensive school website for SMAN 1 Balige as part of a university-wide community service project. Utilized Laravel framework to create a dynamic and informative platform for students, parents, and staff. "
 						stacks= {["HTML","CSS","Laravel","Bootstrap","MySQL"]}
 						website="https://pkm.sman1balige.delcom.org/"
@@ -104,7 +104,7 @@ const experience = new Date().getFullYear() - startCareer;
 
 					<Project 
 						title="Ngekost" 
-						img="../dist/img/portfolio/ngekost.png"
+						img="img/portfolio/ngekost.png"
 						about="Ngekos is a modern and full-featured boarding house (kos-kosan) web platform built with Laravel 11, Filament, and Midtrans. It allows users to search for high-quality accommodations by city and category, view detailed room info, and choose flexible payment options (DP or full payment). Users can fill out personal data, select their check-in date, and pay securely via Midtrans. Admins manage cities, categories, rooms, facilities, bookings, and user testimonials via a powerful Filament dashboard."
 						stacks= {["PHP","HTML","CSS","JavaScript","Bootstrap","Laravel","Filament","MySQL"]}
 						website="-"
@@ -113,7 +113,7 @@ const experience = new Date().getFullYear() - startCareer;
 
 					<Project 
 						title="Dice Game" 
-						img="../dist/img/portfolio/dice.png"
+						img="/img/portfolio/ngekost.png"
 						about="A simple JavaScript project that demonstrates how to dynamically replace an HTML element with a new one"
 						stacks= {["HTML","CSS","JavaScript"]}
 						website="https://github.com/twinklestar-o/dice-challenge"
@@ -122,7 +122,7 @@ const experience = new Date().getFullYear() - startCareer;
 
 					<Project 
 						title="Virtual Drum Kit" 
-						img="../dist/img/portfolio/virtual-drum-kit.png"
+						img={`${import.meta.env.BASE_URL}img/portfolio/virtual-drum-kit.png`}
 						about="An interactive web application that simulates a drum set, allowing users to play various drum sounds using either mouse clicks or keyboard presses. Built with HTML, CSS, and JavaScript, the project showcases the power of JavaScript in creating engaging and responsive web experiences."
 						stacks= {["HTML","CSS","JavaScript"]}
 						website="https://github.com/twinklestar-o/virtual-drum-kit"
