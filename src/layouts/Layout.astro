@@ -19,7 +19,7 @@ const metaDescription = "Third-year Computer Science student with hands-on exper
 		<meta charset="UTF-8" />
 		<meta name="description" content={metaDescription} />
 		<meta name="viewport" content="width=device-width" />
-		<base href="/Portofolio/" />
+		<base href={import.meta.env.BASE_URL} />
 		<link rel="icon" href={`${import.meta.env.BASE_URL}img/favicon.png`} type="image/png">
 
 		<link rel="stylesheet" href={`${import.meta.env.BASE_URL}css/bootstrap.css`} />
